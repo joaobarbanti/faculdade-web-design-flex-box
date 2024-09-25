@@ -1,0 +1,28 @@
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+/* isso aqui era pra limitar a tela, só que não acontece nada */
+html, body{
+    overflow-x: hidden;
+}
+.cat{
+    border: 5px solid green;
+}
+
+.horse{
+    border: 5px solid yellow;
+}
+
+.camel{
+    border: 5px solid red;
+}
+
+/* aqui tá certo pq tó com o flexboxfroggy aqui do lado */
+.animals{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
